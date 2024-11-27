@@ -1,0 +1,152 @@
+
+
+body{
+    background-color: #ededed;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 60px;
+   
+}
+
+.caja{
+    display: flex;
+    width: 300px;
+    flex-wrap: wrap;
+    background-color: white;
+    box-shadow: 5px 5px 20px 5px rgb(122, 122, 122);
+    justify-content: center;
+
+    
+}
+
+img{
+    width: 100%;
+    
+}
+
+.imagen{
+    width: 250px;
+    height: 180px;
+    background-color: #ededed;
+    margin-top: 50px;
+
+}
+
+
+.tex{
+    text-align: center;
+}
+
+.Precio{
+    margin-top: 20px;
+    font-size: 25px;
+   
+}
+
+.estrellitas{
+    display: flex;
+    width: 100%;
+    font-size: 20px;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    
+}
+
+
+h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.buton{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+
+
+
+#buton1{
+    background-color:orangered;
+}
+
+#buton2{
+    background-color: green;
+}
+
+
+
+#buton3{
+    background-color: rgb(10, 75, 239);
+}
+
+
+
+a{
+    color: white;
+    text-decoration: none;
+   
+}
+
+#precio1{
+    color: orangered;
+}
+
+#precio2{
+    color:green ;
+}
+
+#precio3{
+    color: rgb(10, 75, 239);
+}
+
+
+.estrella{
+    color: yellow;
+}
+
+.estrellag{
+    color: gray;
+}
+
+
+
+#c1 :hover #precio1{
+    color: rgb(0, 0, 0);
+    transition: 0.6s;
+}
+
+#c1:hover #buton1{
+    background-color: black;
+    transition: 0.6s;
+}
+
+#c2:hover #precio2{
+    color: rgb(0, 0, 0);
+    transition: 0.6s;
+}
+
+#c2:hover #buton2{
+    background-color: black;
+    transition: 0.6s;
+}
+
+#c3:hover #precio3{
+    color: rgb(0, 0, 0);
+    transition: 0.6s;
+}
+
+#c3:hover #buton3{
+    background-color: black;
+    transition: 0.6s;
+}
